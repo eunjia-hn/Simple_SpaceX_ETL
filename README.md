@@ -1,4 +1,4 @@
-# Slalom_DataChallenge
+# Simple ETL Challenge with SpaceX data
 **Requirements** <br/>
 1. A script wirtten with any programming language that calls the API and uploads it to your database.
 2. A file with the two queries that answer our questions about the data
