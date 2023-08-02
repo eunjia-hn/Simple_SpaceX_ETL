@@ -1,0 +1,5 @@
+,name,type,active,boosters,cost_per_launch,success_rate_pct,first_flight,country,company,id
+0,Falcon 1,rocket,FALSE,0,6700000,40,3/24/06,Republic of the Marshall Islands,SpaceX,5e9d0d95eda69955f709d1eb
+1,Falcon 9,rocket,TRUE,0,50000000,99,6/4/10,United States,SpaceX,5e9d0d95eda69973a809d1ec
+2,Falcon Heavy,rocket,TRUE,2,90000000,100,2/6/18,United States,SpaceX,5e9d0d95eda69974db09d1ed
+3,Starship,rocket,FALSE,0,7000000,0,12/1/21,United States,SpaceX,5e9d0d96eda699382d09d1ee
