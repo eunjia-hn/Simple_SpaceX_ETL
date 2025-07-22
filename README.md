@@ -1,21 +1,46 @@
-# Simple ETL Challenge with SpaceX data
-**Requirements** <br/>
-1. A script wirtten with any programming language that calls the API and uploads it to your database.
-2. A file with the two queries that answer our questions about the data
-3. An explanation of how to run your solution.
+# 🛰️ Simple ETL Challenge with SpaceX Data
 
-### HOW I SOLVED
-1. Pulled and saved the SpaceX Launch API from the web using python.
-2. Normalized the json files and saved as a csv using python.
-3. Cleaned the datasets using Excel. 
-4. Built an ERD in order to properly transfer csv data into the database.
-5. Loaded csv files into MySQL.
-6. Created tables based on the ERD 
-7. Wrote stored procedures to properly insert the loaded data into the tables in the database
-8. Wrote the querying statements answering questions that were asked to solve. 
+## 📌 Purpose
+To demonstrate a complete ETL (Extract, Transform, Load) pipeline using SpaceX launch data. This includes data extraction, transformation, database schema design, loading into MySQL, and running SQL queries to generate insights.
 
-### TO RUN
-- Run a 'DataChallenge.sql' script on MySQL to have create a database based on the data pulled from API
-- Run a 'query.sql' script on MySQL for the solutions to the questions that were asked to answer.
+---
 
+## 🔧 What the Project Does
 
+1. **Extract**  
+   - Uses Python to call the SpaceX Launch API and retrieve launch data.
+
+2. **Transform**  
+   - Normalizes the API's JSON data into structured CSV files.
+   - Cleans the datasets using Excel for better consistency.
+
+3. **Load**  
+   - Designs an Entity Relationship Diagram (ERD) for database schema.
+   - Loads the cleaned CSV files into a MySQL database.
+   - Creates tables and uses stored procedures to properly insert the data.
+
+4. **Query**  
+   - Executes SQL scripts to answer specific business or analytical questions using the structured data.
+
+---
+
+## 📂 Main Files
+
+- `SpaceXDataProcessing.ipynb`: Jupyter Notebook for data extraction and transformation.
+- `datachallenge.sql`: SQL script for database and table creation.
+- `query.sql`: SQL queries that provide answers to posed questions.
+- `ERD.pdf`: Entity Relationship Diagram for schema reference.
+- `data/`: Contains cleaned CSV files:
+  - `launches.csv`
+  - `payloads.csv`
+  - `rockets.csv`
+  - `ships.csv`
+
+---
+
+## ▶️ How to Run
+
+1. Run the `datachallenge.sql` script in MySQL to create and populate the database.
+2. Run the `query.sql` script in MySQL to execute queries and view insights.
+
+---
