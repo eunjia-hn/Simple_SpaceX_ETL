@@ -3,7 +3,6 @@
 ## 📌 Purpose
 To demonstrate a complete ETL (Extract, Transform, Load) pipeline using SpaceX launch data. This includes data extraction, transformation, database schema design, loading into MySQL, and running SQL queries to generate insights.
 
----
 
 ## 🔧 What the Project Does
 
@@ -22,7 +21,6 @@ To demonstrate a complete ETL (Extract, Transform, Load) pipeline using SpaceX l
 4. **Query**  
    - Executes SQL scripts to answer specific business or analytical questions using the structured data.
 
----
 
 ## 📂 Main Files
 
@@ -36,11 +34,10 @@ To demonstrate a complete ETL (Extract, Transform, Load) pipeline using SpaceX l
   - `rockets.csv`
   - `ships.csv`
 
----
 
 ## ▶️ How to Run
 
 1. Run the `datachallenge.sql` script in MySQL to create and populate the database.
 2. Run the `query.sql` script in MySQL to execute queries and view insights.
 
----
+
